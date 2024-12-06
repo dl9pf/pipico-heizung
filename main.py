@@ -23,5 +23,5 @@ while True:
 
 
     # daily reboot
-    if epoch > 86400 :
+    if epoch > 10 :
         machine.reset()
