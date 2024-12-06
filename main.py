@@ -1,8 +1,8 @@
 from machine import Pin
 from time import sleep
 
-# Initialisierung von GPIO25 als Ausgang
-led_onboard = Pin(25, Pin.OUT)
+# Initialisierung von "LED" als Ausgang
+led_onboard = Pin("LED", Pin.OUT)
 
 while True:
     # LED einschalten
